@@ -13,7 +13,7 @@ class splash4 extends StatelessWidget{
           decoration: const BoxDecoration(
             image: DecorationImage(
                 fit : BoxFit.cover,
-                image: AssetImage('asset/images/fruit bg.jpeg'))),
+                image: AssetImage('asset/icons/fruit bg.jpeg'))),
         child: Center(
         child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
@@ -21,7 +21,7 @@ class splash4 extends StatelessWidget{
           children: [
             Transform.scale(
             scale: 2.5,
-           child: Image.asset('asset/images/1074282.png',
+           child: Image.asset('asset/icons/1074282.png',
             width: 300,
               ),),
 
